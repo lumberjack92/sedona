@@ -1,0 +1,156 @@
+/* Fonts */
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans.woff2") format("woff2"),
+  url("../fonts/PTSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
+  url("../fonts/PTSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Colors */
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #FFFFFF;
+  --basic-mine-shaft: #333333;
+  --basic-gallery: #EEEEEE;
+  --basic-half-baked: #81B3D2;
+  --basic-pine-coin: #766357;
+}
+
+/* Styles */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-body {
+  width: 1200px;
+  padding: 0 40px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--basic-mine-shaft);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.navigation-list {
+  padding: 0;
+  margin: 0;
+}
+.navigation-item a{
+  line-height: 26px;
+  font-weight: bold;
+  color: var(--basic-black);
+}
+
+.site-welcome {
+  background-image: url(/img/background-title.jpg);
+}
+
+.slogan {
+  margin: 0;
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.features-title {
+  margin: 0;
+}
+
+.feature-item p {
+  margin: 0;
+}
+
+.feature-card .feature-item{
+  color: var(--basic-white);
+  background-color: var(--basic-half-baked);
+}
+
+.feature-card .feature-title {
+  color: var(--basic-white);
+}
+
+.feature-title {
+  margin: 0;
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.recommendation-title {
+  margin: 0;
+  color: var(--basic-black);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.recommendation-item p {
+  margin: 0;
+}
+
+.search-question {
+  margin: 0;
+  color: var(--basic-black);
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.search-text {
+  margin: 0;
+  color: var(--basic-black);
+}
+
+.search-button {
+  color: var(--basic-white);
+  background-color: var(--basic-pine-coin);
+}
+
+.contacts {
+  color: var(--basic-black)
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.socials-title {
+  margin: 0;
+}
+
+.socials-list {
+  margin: 0;
+  padding: 0;
+}
+
+.socials-item {
+  display: inline-block;
+  background-color: var(--basic-half-baked);
+}
+
+.copyright-text {
+  color: var(--basic-black);
+  margin: 0;
+}
